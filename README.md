@@ -7,3 +7,8 @@ The example also handles some visibility logic for better UX as in the stock app
 Key methods and classes used 
 ---
 TextWatcher, setVisibility, inflate, addView, removeView, animateLayoutChanges
+
+
+TODO
+---
+State is not saved for rotation, maybe adding it later.
