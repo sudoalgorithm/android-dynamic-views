@@ -4,6 +4,8 @@ This sample project achieves exactly the same functionality and look as the edit
 
 The example also handles some visibility logic for better UX as in the stock app: If a row becomes empty, "add new" and "x" will disappear. 
 
+Here is a demo video in action: [http://www.youtube.com/watch?v=4HeqyG6FDhQ](http://www.youtube.com/watch?v=4HeqyG6FDhQ). 
+
 Key methods and classes used 
 ---
 TextWatcher, setVisibility, inflate, addView, removeView, animateLayoutChanges
