@@ -6,11 +6,11 @@ The example also handles some visibility logic for better UX as in the stock app
 
 Here is a demo video in action: [http://www.youtube.com/watch?v=4HeqyG6FDhQ](http://www.youtube.com/watch?v=4HeqyG6FDhQ). 
 
+The state of the views is not saved for rotation. You'll need to work with onSaveInstanceState and onRestoreInstanceState. I left some notes in the code you can start with.
+
 Key methods and classes used 
 ---
 TextWatcher, setVisibility, inflate, addView, removeView, animateLayoutChanges
 
 
-TODO
----
-State is not saved for rotation, maybe adding it later.
+

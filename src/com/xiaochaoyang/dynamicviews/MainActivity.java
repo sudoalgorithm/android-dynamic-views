@@ -5,6 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -37,7 +38,25 @@ public class MainActivity extends Activity {
 		inflateEditRow("Yang");
 	}
 
-	// onClick handler for the "Add new" button;
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // TODO: Handle screen rotation:
+        // encapsulate information in a parcelable object, and save it
+        // into the state bundle.
+
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        // TODO: Handle screen rotation:
+        // restore the saved items and inflate each one with inflateEditRow;
+
+    }
+
+    // onClick handler for the "Add new" button;
 	public void onAddNewClicked(View v) {
 		// Inflate a new row and hide the button self.
 		inflateEditRow(null);
